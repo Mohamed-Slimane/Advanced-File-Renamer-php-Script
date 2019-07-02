@@ -12,6 +12,7 @@
     <style>
         body{
             font-family: cairo;
+            margin: auto;
         }
         .row.all{
             width: max-content;
