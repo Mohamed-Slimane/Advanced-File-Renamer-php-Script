@@ -30,6 +30,6 @@ before 3 after.jpg,
 
 **How it works**
 
-Copy rename.php and r_action.php To the main folder that contains the folders
+Copy rename.php and r_action.php To the main folder that contains the folders that contain the images, and then enter the path in which the script was put and added to it `/rename.php`.
 
 [![paypal](https://camo.githubusercontent.com/d5d24e33e2f4b6fe53987419a21b203c03789a8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LX9XQ9QZVGTNQ&source=url)
