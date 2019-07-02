@@ -25,3 +25,10 @@ before 2 after.jpg,
 before 3 after.jpg,
 
 This script will detect all folders and files in these folders automatically.
+
+![](https://i.ibb.co/yhXg5rF/Screenshot-74.jpg)
+
+
+[Donate] ![](https://rooseveltparkministries.org/wp-content/uploads/2015/02/donate-button.png) [1]
+
+[1]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LX9XQ9QZVGTNQ&source=url
