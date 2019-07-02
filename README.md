@@ -29,6 +29,5 @@ This script will detect all folders and files in these folders automatically.
 ![](https://i.ibb.co/yhXg5rF/Screenshot-74.jpg)
 
 
-[Donate][1]
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LX9XQ9QZVGTNQ&source=url)
 
-[1]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LX9XQ9QZVGTNQ&source=url
