@@ -2,6 +2,8 @@
 
 header('Content-Type: text/html; charset=utf-8');
 
+set_time_limit(10);
+
 $folder = $_REQUEST['folder'];
 $type = $_REQUEST['type'];
 $before = $_REQUEST['before'];
@@ -25,11 +27,10 @@ while (false !== ($file = readdir($dir)))
 
         // increase for the next loop
         $i++;
-    }else{
-        header ("Location:rename.php");
+        
     }
 }
-
+header ("Location:rename.php");
 // close the directory handle
 closedir($dir);
 
