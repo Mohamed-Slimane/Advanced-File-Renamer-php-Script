@@ -1,4 +1,4 @@
-# Advanced-File-Renamer-Script
+# Advanced File Renamer PHP Script
 Online multiple file renaming tool
 
 **This** is a php script to rename all files in your host folder.
