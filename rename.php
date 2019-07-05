@@ -60,22 +60,21 @@
     <?php
     function glob_dir_recursive($dirs, $depth=0) {
     foreach ($dirs as $item) {
-        echo  '<option class="folders" value="'. basename($item) .'">' . basename($item) . '</option>'; //can use also "basename($item)" or "realpath($item)"
-        $subdir =  glob($item . DIRECTORY_SEPARATOR . '*', GLOB_ONLYDIR); //use DIRECTORY_SEPARATOR to be OS independent
-        if (!empty($subdir)) { //if subdir array is not empty make function recursive
-            glob_dir_recursive($subdir, $depth+1); //execute the function again with current subdir, increment depth
+        echo  '<option class="folders" value="'. basename($item) .'">' . basename($item) . '</option>';
+        $subdir =  glob($item . DIRECTORY_SEPARATOR . '*', GLOB_ONLYDIR);
+        if (!empty($subdir)) { 
+            glob_dir_recursive($subdir, $depth+1);
             }
         }
     };
-    $dirs = array('.'); //relative path examples: 'galleries' or '../galleries' or 'galleries/subfolder'.
-    //$dirs = array($_SERVER['DOCUMENT_ROOT'].'/galleries'); //absolute path example
-    //$dirs = array('galleries', $_SERVER['DOCUMENT_ROOT'].'/logs'); //multiple paths example
-
+        
+    $dirs = array('.');
+        
     echo '<select name="folder" class="form-control">';
     echo '<option value="." selected>Current folder</option>';
     glob_dir_recursive($dirs); //to list directories and files
     echo '</select>';
-    
+        
     ?>
 <style>
     .folders[value="."]{display:none;}
